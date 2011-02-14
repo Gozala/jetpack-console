@@ -1,8 +1,9 @@
 { "name": "console"
+, "id": "jid0-AkCeQw2N9phmbELeLGsGQiPKxy4"
 , "version": "0.0.1"
 , "description": "Jetpack console"
 , "homepage": "http://github.com/Gozala/console/"
-, "keywords": []
+, "keywords": ["console", "javascript", "addon-sdk", "jetpack", "firefox"]
 , "contributors":
   [ "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)" ]
 , "repository":
@@ -18,7 +19,7 @@
 , "dependencies": {
     "protocol": "0.1.0"
   }
-, "main": "./lib/console.js"
+, "main": "console"
 , "scripts": { "test": "node test/all.js" }
 , "engines":
   { "node": ">=0.1.103"
